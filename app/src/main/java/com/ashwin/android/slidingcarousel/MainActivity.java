@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.os.Build;
@@ -50,9 +49,7 @@ public class MainActivity extends AppCompatActivity {
         bigView.setTextViewText(R.id.notification_title, title);
         bigView.setTextViewText(R.id.notification_text, text);
 
-        //builder.setCustomBigContentView(bigView);
         builder.setStyle(new NotificationCompat.DecoratedCustomViewStyle());
-        //builder.setContent(bigView);
         builder.setCustomBigContentView(bigView);
 
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);

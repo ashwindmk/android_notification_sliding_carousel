@@ -22,22 +22,19 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:scaleType="fitXY"
-            android:src="@drawable/banner_android"
-            android:layout_margin="0dp"/>
+            android:src="@drawable/banner_android"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:src="@drawable/banner_firebase"
-            android:scaleType="fitXY"
-            android:layout_margin="0dp"/>
+            android:scaleType="fitXY"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:src="@drawable/banner_crashlytics"
-            android:scaleType="fitXY"
-            android:layout_margin="0dp"/>
+            android:scaleType="fitXY"/>
 
     </ViewFlipper>
 
